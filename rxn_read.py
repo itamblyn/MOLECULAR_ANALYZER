@@ -48,7 +48,7 @@ def main():
         # Exit the program cleanly
         sys.exit(0)
 
-    nwindow = 50
+    nwindow = 100
 
     rxn_sum = read_rxn(nwindow)
     plot_result(rxn_sum)
